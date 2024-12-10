@@ -1,6 +1,7 @@
 import React from 'react'  //rfc
 import PropTypes from 'prop-types'  //impt
 import { Link } from 'react-router-dom'
+
 //props(properties): think it as a form(template) with empty fields like name,address 
 //we need to fill this according to who is using it but there is also content which is same
 //for everyone

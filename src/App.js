@@ -8,10 +8,8 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
-// import About from './component/About';
 function App() {
   const [Mode, setMode] = useState('light'); //
   const [alert,setAlert] = useState(null);
@@ -80,8 +78,8 @@ function App() {
                 mode={Mode} 
                 heading="Enter the text to analyze below" 
               />
-            } 
-          />
+             }  
+           />
         </Routes>
       </div>
     </Router>
